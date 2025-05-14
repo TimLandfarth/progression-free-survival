@@ -1,6 +1,7 @@
 # Statistical Analysis for Prediction of Progression-Free Survival under Immune Checkpoint Inhibition
 
 This repository contains the R code used for the development and validation of Cox proportional hazards models to predict progression-free survival (PFS) in patients treated with immune checkpoint inhibitors (ICI). The analysis included multiple imputation for missing data, model building via forward selection based on AIC and BIC criteria, and performance evaluation using repeated cross-validation, the concordance index, and the Brier score. The results are part of a retrospective study currently under preparation for publication.
+
 Note that the real data cannot be included in this repository. However, we have provided pseudo data with similar properties to the original data. Consequently, the results obtained using the pseudo data will differ from those of the original analysis.
 
 The structure of the repository is as follows:
